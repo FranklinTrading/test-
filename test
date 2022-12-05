@@ -127,6 +127,8 @@ end)
 Section:NewButton("teletrasportarte a alguien" , "teletrasporte", function()
 loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
 
+ local Tab = Window:NewTab("fake drop estafar ") local Section = Tab:NewSection("script para estafar")
+
 Section:NewButton("fake drop", "items falsos", function()
    local plr = game.Players.LocalPlayer
 
